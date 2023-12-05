@@ -18,7 +18,7 @@ int main(void){
 		y[i] = 7 * i;
 	}
 
-	//task to be performed by GPU
+	//task to be performed by GPU. Don't forget to add global
 	for(int i = 0; i < num; i++){
 		z[i] = A * x[i] + y[i];
 	}
